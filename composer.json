@@ -9,10 +9,6 @@
         {
             "name": "Fabricio Rabelo",
             "email": "fabriciojbo@icloud.com"
-        },
-        {
-            "name": "Fabriciorabelo",
-            "email": "admin@laravel.in.th"
         }
     ],
     "require": {
