@@ -1,4 +1,4 @@
-<?php namespace Teepluss\Theme\Facades;
+<?php namespace Fabriciorabelo\Theme\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

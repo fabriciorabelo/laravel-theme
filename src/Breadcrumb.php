@@ -1,4 +1,4 @@
-<?php namespace Teepluss\Theme;
+<?php namespace Fabriciorabelo\Theme;
 
 use Illuminate\Support\Facades\URL;
 use Illuminate\Filesystem\Filesystem;
@@ -31,7 +31,7 @@ class Breadcrumb {
      *
      * @param  \Illuminate\Filesystem\Filesystem $files
      *
-     * @return \Teepluss\Theme\Breadcrumb
+     * @return \Fabriciorabelo\Theme\Breadcrumb
      */
     public function __construct(Filesystem $files)
     {

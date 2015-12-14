@@ -1,4 +1,4 @@
-<?php namespace Teepluss\Theme;
+<?php namespace Fabriciorabelo\Theme;
 
 class UnknownThemeException extends \UnexpectedValueException {}
 class UnknownViewFileException extends \UnexpectedValueException {}

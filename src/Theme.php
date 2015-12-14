@@ -1,4 +1,4 @@
-<?php namespace Teepluss\Theme;
+<?php namespace Fabriciorabelo\Theme;
 
 use Closure;
 use ReflectionClass;
@@ -7,10 +7,10 @@ use Illuminate\View\Factory;
 use Illuminate\Config\Repository;
 use Illuminate\Events\Dispatcher;
 use Illuminate\Filesystem\Filesystem;
-use Teepluss\Theme\Compilers\TwigCompiler;
+use Fabriciorabelo\Theme\Compilers\TwigCompiler;
 use Illuminate\View\Compilers\BladeCompiler;
 use Symfony\Component\HttpFoundation\Cookie;
-use Teepluss\Theme\Contracts\Theme as ThemeContract;
+use Fabriciorabelo\Theme\Contracts\Theme as ThemeContract;
 
 class Theme implements ThemeContract {
 
@@ -50,7 +50,7 @@ class Theme implements ThemeContract {
 	/**
 	 * Asset.
 	 *
-	 * @var \Teepluss\Assets
+	 * @var \Fabriciorabelo\Assets
 	 */
 	protected $asset;
 
@@ -64,7 +64,7 @@ class Theme implements ThemeContract {
 	/**
 	 * Breadcrumb.
 	 *
-	 * @var \Teepluss\Breadcrumb
+	 * @var \Fabriciorabelo\Breadcrumb
 	 */
 	protected $breadcrumb;
 
@@ -130,11 +130,11 @@ class Theme implements ThemeContract {
      * @param  \Illuminate\Config\Repository $config
      * @param  \Illuminate\Events\Dispatcher $events
      * @param  \Illuminate\View\Factory $view |
-     * @param  \Teepluss\Theme\asset $asset
+     * @param  \Fabriciorabelo\Theme\asset $asset
      * @param  \Illuminate\Filesystem\Filesystem $files
-     * @param  \Teepluss\Breadcrumb|\Teepluss\Theme\Breadcrumb $breadcrumb
+     * @param  \Fabriciorabelo\Breadcrumb|\Fabriciorabelo\Theme\Breadcrumb $breadcrumb
      *
-     * @return \Teepluss\Theme\Theme
+     * @return \Fabriciorabelo\Theme\Theme
      */
 	public function __construct(Repository $config,
 								Dispatcher $events,
@@ -700,7 +700,7 @@ class Theme implements ThemeContract {
      * @param  string $className
      * @param  array $attributes
      * @throws UnknownWidgetClassException
-     * @return Teepluss\Theme\Widget
+     * @return Fabriciorabelo\Theme\Widget
      */
 	public function widget($className, $attributes = array())
 	{
@@ -903,7 +903,7 @@ class Theme implements ThemeContract {
 	/**
 	 * Return asset instance.
 	 *
-	 * @return \Teepluss\Theme\Asset
+	 * @return \Fabriciorabelo\Theme\Asset
 	 */
 	public function asset()
 	{
@@ -913,7 +913,7 @@ class Theme implements ThemeContract {
 	/**
 	 * Return breadcrumb instance.
 	 *
-	 * @return \Teepluss\Theme\Breadcrumb
+	 * @return \Fabriciorabelo\Theme\Breadcrumb
 	 */
 	public function breadcrumb()
 	{

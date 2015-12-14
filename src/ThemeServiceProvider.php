@@ -1,4 +1,4 @@
-<?php namespace Teepluss\Theme;
+<?php namespace Fabriciorabelo\Theme;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -89,7 +89,7 @@ class ThemeServiceProvider extends ServiceProvider {
             return new Theme($app['config'], $app['events'], $app['view'], $app['asset'], $app['files'], $app['breadcrumb']);
         });
 
-        $this->app->alias('theme', 'Teepluss\Theme\Contracts\Theme');
+        $this->app->alias('theme', 'Fabriciorabelo\Theme\Contracts\Theme');
     }
 
     /**

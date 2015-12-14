@@ -1,7 +1,7 @@
 <?php namespace {widgetNamespace};
 
-use Teepluss\Theme\Theme;
-use Teepluss\Theme\Widget;
+use Fabriciorabelo\Theme\Theme;
+use Fabriciorabelo\Theme\Widget;
 
 class {widgetClass} extends Widget {
 

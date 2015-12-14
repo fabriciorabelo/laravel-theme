@@ -7,12 +7,12 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Teepluss",
-            "email": "admin@laravel.in.th"
-        },
-        {
             "name": "Fabricio Rabelo",
             "email": "fabriciojbo@icloud.com"
+        },
+        {
+            "name": "Fabriciorabelo",
+            "email": "admin@laravel.in.th"
         }
     ],
     "require": {
@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Teepluss\\Theme\\": "src/"
+            "Fabriciorabelo\\Theme\\": "src/"
         },
         "classmap": [
             "src/Exceptions.php"
